@@ -1,0 +1,19 @@
+.parallax_section {
+  height: 200px;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: 100% auto;
+  position: relative; }
+
+.parallax_image {
+  background-image: url(/assets/img/parallax.jpg); }
+
+.paraButton:hover {
+  transform: scale(1.05); }
+
+.paraButton {
+  transition: all 0.5s;
+  width: 40%; }
+
+/*# sourceMappingURL=home.component.css.map */

@@ -1,0 +1,41 @@
+.container
+	background-color: #ffc106
+
+.mat-tab-group
+	color: black
+
+
+::ng-deep .mat-tab-label .mat-tab-label-content
+	font-size: 1.5vw !important
+	color: black
+	font-weight: bold
+	
+
+:host ::ng-deep .mat-tab-body-wrapper
+	height: 100vh
+
+:host ::ng-deep .mat-tab-body.mat-tab-body-active
+	height: 100vh
+
+@media (max-width: 575px)
+	.mat-tab-group
+		font-size: 3vw !important
+
+	::ng-deep .mat-tab-label .mat-tab-label-content
+		font-size: 3vw !important
+
+	:host ::ng-deep .mat-tab-body-wrapper
+		height: 100vh
+
+	:host ::ng-deep .mat-tab-body.mat-tab-body-active
+		height: 100vh
+
+@media (min-width: 576px) and (max-width: 840px)
+	.mat-tab-group
+		font-size: 2vw !important
+
+	:host ::ng-deep .mat-tab-body-wrapper
+		height: 100vh
+
+	:host ::ng-deep .mat-tab-body.mat-tab-body-active
+		height: 100vh

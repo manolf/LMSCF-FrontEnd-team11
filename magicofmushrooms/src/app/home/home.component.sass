@@ -1,0 +1,38 @@
+.parallax_section
+    height: 200px
+    background-repeat: no-repeat
+    background-attachment: fixed
+    background-size: cover
+    background-position: 100% auto
+    position: relative
+
+.parallax_image
+    background-image: url(/assets/img/parallax.jpg)
+
+.paraButton:hover
+    transform: scale(1.05)
+
+.paraButton
+    transition: all 0.5s
+    width: 40%
+    border-radius: 20px
+
+.btn 
+    border-radius: 2vw
+    
+
+a
+    font-size: 1.5vw
+    text-decoration: none
+
+@media (max-width: 575px)
+    .paraButton
+        width: 50%
+    a
+        font-size: 3vw
+
+@media (min-width: 575px) and (max-width: 768px)
+    .paraButton
+        width: 43%
+    a
+        font-size: 2.1vw
